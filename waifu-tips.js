@@ -134,9 +134,9 @@ function loadWidget(config) {
 			.then(result => {
 				//const text = `这句一言来自 <span>「${result.from}」</span>，是 <span>${result.creator}</span> 在 hitokoto.cn 投稿的。`;
 				showMessage(result.hitokoto, 6000, 9);
-				setTimeout(() => {
+				//setTimeout(() => {
 					//showMessage(text, 4000, 9);
-				}, 6000);
+				//}, 6000);
 			});
 	}
 
